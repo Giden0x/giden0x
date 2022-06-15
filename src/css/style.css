@@ -32,14 +32,12 @@ p {
   justify-content: center;
   align-items: flex-start;
   width: 200px;
-  animation: loadBox 4s;
 }
 
 .logo {
   width: 200px;
   height: auto;
   padding: 2rem;
-  animation: loadOpacity 4s;
 }
 
 .contact-text {
@@ -85,16 +83,6 @@ p {
   100% {
     opacity: 1;
     transform: translateX(0);
-  }
-}
-
-@keyframes loadBox {
-  0% {
-    height: 300px;
-  }
-
-  100% {
-    height: 800px
   }
 }
 
